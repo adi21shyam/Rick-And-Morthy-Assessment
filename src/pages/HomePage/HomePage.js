@@ -60,7 +60,7 @@ const HomePage = () => {
 
     const timeout = setTimeout(() => {
       setSearch(value);
-    }, 500);
+    }, 1000);
     setDebounceTimeout(timeout);
   };
 
